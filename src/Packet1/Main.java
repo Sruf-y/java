@@ -4,6 +4,7 @@ import java.io.*;
 import java.lang.reflect.AnnotatedType;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -135,33 +136,94 @@ public class Main {
 
 
 
-        Random rand = new Random();
-
-        int a=rand.nextInt(0,20);
-
-        int b=0,c=1;
-        int d=b+c;
-
-
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        bw.write("Numar generat: "+Integer.toString(a)+"\n");
-        while(d<=a)
-        {
-            if(d==a)
-            {
-                bw.write(Integer.toString(a)+" face parte din sirul fibonacci.\n"+Integer.toString(b)+" "+Integer.toString(c)+" "+Integer.toString(d)+"\n");
-            }
-            c=d;
-            b=c;
-
-            d=b+c;
-        }
-        bw.close();
+//        Random rand = new Random();
+//
+//        int a=rand.nextInt(0,20);
+//
+//        int b=0,c=1;
+//        int d=b+c;
+//
+//
+//        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+//        bw.write("Numar generat: "+Integer.toString(a)+"\n");
+//        while(d<=a)
+//        {
+//            if(d==a)
+//            {
+//                bw.write(Integer.toString(a)+" face parte din sirul fibonacci.\n"+Integer.toString(b)+" "+Integer.toString(c)+" "+Integer.toString(d)+"\n");
+//            }
+//            c=d;
+//            b=c;
+//
+//            d=b+c;
+//        }
+//        bw.close();
 
 
 
         //end Ex5
 
+        //                      WEEK 2
+
+
+        //Ex1
+
+
+
+//        String filename = "judete_in.txt";
+//        File file = new File(filename);
+//
+//        if(file.exists()){
+//            ArrayList<String> list = new ArrayList<>();
+//
+//            BufferedReader br = new BufferedReader(new FileReader(file));
+//
+//            String line;
+//
+//            while((line = br.readLine()) != null){
+//                list.add(line);
+//            }
+//            br.close();
+//
+//            list.sort(null);
+//
+//            BufferedWriter bw = new BufferedWriter(new FileWriter(file));
+//
+//            for(int i = 0; i < list.size(); i++) {
+//                bw.write(list.get(i));
+//                bw.newLine();
+//            }
+//            bw.close();
+//
+//            br=new BufferedReader(new InputStreamReader(System.in));
+//
+//            line=br.readLine();
+//
+//            if(list.indexOf(line)==-1){
+//                System.out.println("Judet inexistent.\n");
+//            }
+//            else{
+//                System.out.println("Judet gasit la indexul "+list.indexOf(line)+"\n");
+//            }
+//
+//            br.close();
+//        }
+//        else{
+//            System.out.println("Fila inexistenta.\n");
+//        }
+
+
+        //end Ex1
+
+
+        //Ex2
+
+
+
+
+
+
+        //end Ex2
     }
 
     //functii
