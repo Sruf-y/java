@@ -47,9 +47,9 @@ public class Main {
         }
         public Parabola(String line){
             super();
-            this.a = 0;
-            this.b = 0;
-            this.c = 0;
+            this.a = 3;
+            this.b = 2;
+            this.c = 1;
 
             String splitstring[] =line.split(" ");
 
